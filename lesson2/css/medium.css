@@ -4,5 +4,14 @@
     }
     div {
         margin: 10px;
+        
     }
+}
+.container{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px; 
+    display: grid;
+    grid-template-columns: auto auto;
+    
 }

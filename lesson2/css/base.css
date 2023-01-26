@@ -3,6 +3,11 @@ main {
     grid-template-columns: 1fr;
     padding-bottom: 30px;
     justify-content: center;
+
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
     }
     
     body {
@@ -22,11 +27,11 @@ main {
     }
     
     
-    div{
+    .background {
         border-radius: 20px;
         background-color:rgb(216, 212, 212);
         margin-bottom: 10px;
-     
+        opacity: 0.5;
     }
     
     h2 {
@@ -67,5 +72,28 @@ main {
         width: 100%;
         height: auto; 
     }
+    .container{
+        
+        margin: 10px auto;
+        padding: 10px; 
+        display: grid;
+        grid-template-columns: 1fr ;
+        row-gap: 10px;
+    }
     
-    
+    .dog {
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 250px 650px;
+        
+    }
+    .header1 {
+        justify-content: center;
+        padding-top: 50px;
+        font-size: 45px;
+    }
